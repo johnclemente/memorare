@@ -5,20 +5,21 @@
 
   "about": {
     "heading": "Healing Rooted in Faith",
-    "body": "At Memorare Counseling, we believe that true healing encompasses the whole person — mind, body, and soul. Named after the beloved Memorare prayer, our practice is grounded in the conviction that no one who seeks help is ever left unaided. We integrate proven clinical methods with the richness of the Catholic faith tradition to help you find peace, clarity, and wholeness.",
-    "body2": "Whether you are navigating anxiety, grief, relationship struggles, or a desire for deeper spiritual growth, we are here to walk with you. Our licensed therapists provide a safe, compassionate space where your faith is honored and your humanity is respected."
+    "body": "I'm a Licensed Clinical Social Worker based in Colorado with nearly a decade of experience in the mental health field, including six years of post-graduate clinical practice. I provide private-pay therapy for individuals ages 17 and older, as well as family therapy when healing requires more than one voice in the room.",
+    "body2": "As a practicing Catholic, I also welcome clients who desire thoughtful integration of faith into therapy. Faith is never assumed and always client-led, but when desired, therapy can be a space where psychological insight and spiritual truth work together in the healing process.",
+    "body3": "I intentionally maintain a small, private-pay practice so I can offer focused, personalized care. My hope is that therapy with me feels steady, honest, and deeply human — a place where what feels heavy can be gently untangled and what feels true can grow stronger."
   },
 
   "services": [
     {
-      "name": "Individual counseling",
-      "description": "One-on-one sessions addressing anxiety, depression, life transitions, and personal growth through a faith-integrated lens.",
+      "name": "Individual Therapy",
+      "description": "One-on-one sessions for ages 17 and older addressing depression, anxiety, OCD, perfectionism, ADHD, trauma, and relationship challenges. Drawing from IFS, CBT, DBT, and attachment-based frameworks.",
       "icon": "person"
     },
     {
-      "name": "Grief & Loss",
-      "description": "Compassionate support for those mourning the loss of a loved one, processing trauma, or navigating major life changes.",
-      "icon": "heart"
+      "name": "Family Therapy",
+      "description": "When healing requires more than one voice in the room. Family sessions focused on attachment patterns, family-of-origin dynamics, and building stronger connections.",
+      "icon": "people"
     }
   ],
 
@@ -39,8 +40,10 @@
 
   "counselor": {
     "name": "Katie Clemente, LCSW",
-    "title": "Founder & Therapist",
-    "bio": "Katie is a Licensed Clinical Social Worker and the founder of Memorare Counseling, PLLC. She is passionate about integrating the Catholic faith with evidence-based therapeutic approaches to help clients find healing and wholeness.",
+    "title": "Founder & Licensed Clinical Social Worker",
+    "bio": "I specialize in working with depression, anxiety, OCD, perfectionism, ADHD, trauma, and relationship challenges. Much of my work involves family-of-origin exploration, attachment patterns, and the ways early experiences continue to shape present struggles. I believe many symptoms make sense in context — and therapy is a space to approach those patterns with curiosity rather than shame.",
+    "bio2": "My approach is trauma-informed, relational, and depth-oriented. I draw from Internal Family Systems (IFS), Cognitive Behavioral Therapy (CBT), Dialectical Behavior Therapy (DBT), and attachment-based frameworks. I especially value IFS work, which helps clients understand the different \"parts\" of themselves — the anxious part, the overachieving part, the critical part — and move toward greater internal clarity and integration.",
+    "bio3": "I work often with high-capacity, deeply feeling individuals who are used to holding it together for everyone else. If you struggle with intrusive thoughts, emotional intensity, over-responsibility, or feeling \"too much\" or \"not enough,\" you are not alone. Healing doesn't require becoming someone new — it often involves coming home to yourself with steadiness and compassion.",
     "photo": "Assets/KatiePorfilePicture.jpeg",
     "connectUrl": "https://blinq.me/2K35kfvTgvWIZw4E8ge1",
     "connectLabel": "Connect with Katie"

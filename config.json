@@ -16,20 +16,10 @@
       "icon": "person"
     },
     {
-      "name": "Couples Counseling",
-      "description": "Strengthen your marriage or relationship through improved communication, conflict resolution, and deeper emotional connection.",
-      "icon": "people"
-    },
-    {
       "name": "Grief & Loss",
       "description": "Compassionate support for those mourning the loss of a loved one, processing trauma, or navigating major life changes.",
       "icon": "heart"
     },
-    {
-      "name": "Spiritual Direction",
-      "description": "Guided accompaniment for those seeking to deepen their prayer life, discern God's will, or integrate faith into daily living.",
-      "icon": "cross"
-    }
   ],
 
   "pricing": [
@@ -42,14 +32,8 @@
     {
       "name": "Individual Session",
       "duration": "50 minutes",
-      "price": "$150",
-      "description": "Standard individual counseling session with a licensed counselor."
-    },
-    {
-      "name": "Couples Session",
-      "duration": "80 minutes",
-      "price": "$200",
-      "description": "Extended session designed for couples working through relational challenges."
+      "price": "$115",
+      "description": "Standard individual counseling session with a licensed counselor. Sliding scale available based on need."
     }
   ],
 

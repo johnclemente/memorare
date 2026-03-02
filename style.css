@@ -521,6 +521,7 @@ img {
   .counselor-photo {
     display: flex;
     justify-content: center;
+    position: static;
   }
 
   .counselor-photo img {

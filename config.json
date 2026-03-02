@@ -1,0 +1,67 @@
+{
+  "businessName": "Memorare Counseling",
+  "tagline": "Faith-integrated counseling in Denver, Colorado",
+  "calendlyUrl": "https://calendly.com/your-link-here",
+
+  "about": {
+    "heading": "Healing Rooted in Faith",
+    "body": "At Memorare Counseling, we believe that true healing encompasses the whole person — mind, body, and soul. Named after the beloved Memorare prayer, our practice is grounded in the conviction that no one who seeks help is ever left unaided. We integrate proven clinical methods with the richness of the Catholic faith tradition to help you find peace, clarity, and wholeness.",
+    "body2": "Whether you are navigating anxiety, grief, relationship struggles, or a desire for deeper spiritual growth, we are here to walk with you. Our licensed therapists provide a safe, compassionate space where your faith is honored and your humanity is respected."
+  },
+
+  "services": [
+    {
+      "name": "Individual counseling",
+      "description": "One-on-one sessions addressing anxiety, depression, life transitions, and personal growth through a faith-integrated lens.",
+      "icon": "person"
+    },
+    {
+      "name": "Couples Counseling",
+      "description": "Strengthen your marriage or relationship through improved communication, conflict resolution, and deeper emotional connection.",
+      "icon": "people"
+    },
+    {
+      "name": "Grief & Loss",
+      "description": "Compassionate support for those mourning the loss of a loved one, processing trauma, or navigating major life changes.",
+      "icon": "heart"
+    },
+    {
+      "name": "Spiritual Direction",
+      "description": "Guided accompaniment for those seeking to deepen their prayer life, discern God's will, or integrate faith into daily living.",
+      "icon": "cross"
+    }
+  ],
+
+  "pricing": [
+    {
+      "name": "Initial Consultation",
+      "duration": "20 minutes",
+      "price": "Free",
+      "description": "A brief introductory call to discuss your needs and determine if we are a good fit."
+    },
+    {
+      "name": "Individual Session",
+      "duration": "50 minutes",
+      "price": "$150",
+      "description": "Standard individual counseling session with a licensed counselor."
+    },
+    {
+      "name": "Couples Session",
+      "duration": "80 minutes",
+      "price": "$200",
+      "description": "Extended session designed for couples working through relational challenges."
+    }
+  ],
+
+  "contact": {
+    "phone": "(720) 909-6974",
+    "email": "memorarecounseling@gmail.com",
+    "address": "5860 S Curtice St, Littleton, CO 80120",
+    "hours": "Monday – Friday: 9:00 AM – 6:00 PM"
+  },
+
+  "footer": {
+    "quote": "Remember, O most gracious Virgin Mary, that never was it known that anyone who fled to thy protection, implored thy help, or sought thine intercession was left unaided.",
+    "quoteAttribution": "— The Memorare"
+  }
+}

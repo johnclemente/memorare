@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Memorare Counseling — faith-integrated Catholic therapy in Denver, Colorado. Individual, couples, grief counseling and spiritual direction.">
+  <title>Memorare Counseling | Catholic Therapy in Denver, CO</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- Navigation -->
+  <nav class="nav" id="nav">
+    <div class="nav-container">
+      <a href="#" class="nav-logo" data-config="businessName">Memorare Counseling</a>
+      <button class="nav-toggle" id="nav-toggle" aria-label="Toggle navigation">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+      <ul class="nav-links" id="nav-links">
+        <li><a href="#about">About</a></li>
+        <li><a href="#services">Services</a></li>
+        <li><a href="#pricing">Pricing</a></li>
+        <li><a href="#contact">Contact</a></li>
+        <li><a href="#" class="btn btn-nav" data-calendly>Book a Session</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- Hero -->
+  <header class="hero" id="hero">
+    <div class="container">
+      <div class="hero-content">
+        <h1 data-config="businessName">Memorare Counseling</h1>
+        <p class="hero-tagline" data-config="tagline">Faith-integrated therapy in Denver, Colorado</p>
+        <a href="#" class="btn btn-primary btn-lg" data-calendly>Book a Free Consultation</a>
+      </div>
+    </div>
+  </header>
+
+  <!-- About -->
+  <section class="section" id="about">
+    <div class="container">
+      <h2 data-config="about.heading">Healing Rooted in Faith</h2>
+      <div class="about-content">
+        <p data-config="about.body"></p>
+        <p data-config="about.body2"></p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Services -->
+  <section class="section section-alt" id="services">
+    <div class="container">
+      <h2>Our Services</h2>
+      <div class="card-grid" id="services-grid">
+        <!-- Populated by script.js from config.json -->
+      </div>
+    </div>
+  </section>
+
+  <!-- Pricing -->
+  <section class="section" id="pricing">
+    <div class="container">
+      <h2>Pricing</h2>
+      <div class="card-grid" id="pricing-grid">
+        <!-- Populated by script.js from config.json -->
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact -->
+  <section class="section section-alt" id="contact">
+    <div class="container">
+      <h2>Get in Touch</h2>
+      <div class="contact-grid">
+        <div class="contact-info">
+          <div class="contact-item">
+            <svg class="contact-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+              <path d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z"/>
+            </svg>
+            <div>
+              <strong>Phone</strong>
+              <p data-config="contact.phone"></p>
+            </div>
+          </div>
+          <div class="contact-item">
+            <svg class="contact-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+              <path d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"/>
+            </svg>
+            <div>
+              <strong>Email</strong>
+              <p data-config="contact.email"></p>
+            </div>
+          </div>
+          <div class="contact-item">
+            <svg class="contact-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+              <path d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z"/>
+              <path d="M15 11a3 3 0 11-6 0 3 3 0 016 0z"/>
+            </svg>
+            <div>
+              <strong>Address</strong>
+              <p data-config="contact.address"></p>
+            </div>
+          </div>
+          <div class="contact-item">
+            <svg class="contact-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+              <path d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z"/>
+            </svg>
+            <div>
+              <strong>Hours</strong>
+              <p data-config="contact.hours"></p>
+            </div>
+          </div>
+        </div>
+        <div class="contact-cta">
+          <p>Ready to begin your journey toward healing?</p>
+          <a href="#" class="btn btn-primary btn-lg" data-calendly>Schedule Your Free Consultation</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container">
+      <blockquote class="footer-quote">
+        <p data-config="footer.quote"></p>
+        <cite data-config="footer.quoteAttribution"></cite>
+      </blockquote>
+      <div class="footer-bottom">
+        <p>&copy; <span id="current-year"></span> <span data-config="businessName">Memorare Counseling</span>. All rights reserved.</p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>

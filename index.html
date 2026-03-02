@@ -5,6 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="description" content="Memorare Counseling — faith-integrated Catholic therapy in Denver, Colorado. Individual, couples, grief counseling and spiritual direction.">
   <title>Memorare Counseling | Catholic Therapy in Denver, CO</title>
+  <link rel="icon" href="Assets/favicon.svg" type="image/svg+xml">
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
@@ -12,7 +13,9 @@
   <!-- Navigation -->
   <nav class="nav" id="nav">
     <div class="nav-container">
-      <a href="#" class="nav-logo" data-config="businessName">Memorare Counseling</a>
+      <a href="#" class="nav-logo">
+        <img src="Assets/MemorareLogo.png" alt="Memorare Counseling" class="nav-logo-img">
+      </a>
       <button class="nav-toggle" id="nav-toggle" aria-label="Toggle navigation">
         <span></span>
         <span></span>
@@ -20,6 +23,7 @@
       </button>
       <ul class="nav-links" id="nav-links">
         <li><a href="#about">About</a></li>
+        <li><a href="#counselor">Counselor</a></li>
         <li><a href="#services">Services</a></li>
         <li><a href="#pricing">Pricing</a></li>
         <li><a href="#contact">Contact</a></li>
@@ -50,8 +54,26 @@
     </div>
   </section>
 
+  <!-- Counselor -->
+  <section class="section section-alt" id="counselor">
+    <div class="container">
+      <h2>Meet Your Counselor</h2>
+      <div class="counselor-content">
+        <div class="counselor-photo">
+          <img id="counselor-img" src="" alt="">
+        </div>
+        <div class="counselor-info">
+          <h3 data-config="counselor.name"></h3>
+          <p class="counselor-title" data-config="counselor.title"></p>
+          <p data-config="counselor.bio"></p>
+          <a id="counselor-connect" class="btn btn-primary" href="#" target="_blank" rel="noopener noreferrer"></a>
+        </div>
+      </div>
+    </div>
+  </section>
+
   <!-- Services -->
-  <section class="section section-alt" id="services">
+  <section class="section" id="services">
     <div class="container">
       <h2>Our Services</h2>
       <div class="card-grid" id="services-grid">
@@ -61,7 +83,7 @@
   </section>
 
   <!-- Pricing -->
-  <section class="section" id="pricing">
+  <section class="section section-alt" id="pricing">
     <div class="container">
       <h2>Pricing</h2>
       <div class="card-grid" id="pricing-grid">
@@ -71,7 +93,7 @@
   </section>
 
   <!-- Contact -->
-  <section class="section section-alt" id="contact">
+  <section class="section" id="contact">
     <div class="container">
       <h2>Get in Touch</h2>
       <div class="contact-grid">

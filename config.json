@@ -53,6 +53,15 @@
     }
   ],
 
+  "counselor": {
+    "name": "Katie Clemente, LCSW",
+    "title": "Founder & Therapist",
+    "bio": "Katie is a Licensed Clinical Social Worker and the founder of Memorare Counseling, PLLC. She is passionate about integrating the Catholic faith with evidence-based therapeutic approaches to help clients find healing and wholeness.",
+    "photo": "Assets/KatiePorfilePicture.jpeg",
+    "connectUrl": "https://blinq.me/2K35kfvTgvWIZw4E8ge1",
+    "connectLabel": "Connect with Katie"
+  },
+
   "contact": {
     "phone": "(720) 909-6974",
     "email": "memorarecounseling@gmail.com",

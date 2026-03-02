@@ -109,14 +109,13 @@ img {
 }
 
 .nav-logo {
-  font-size: 1.2rem;
-  font-weight: 700;
-  color: var(--navy);
-  letter-spacing: -0.01em;
+  display: flex;
+  align-items: center;
 }
 
-.nav-logo:hover {
-  color: var(--navy);
+.nav-logo-img {
+  height: 48px;
+  width: auto;
 }
 
 .nav-links {
@@ -238,6 +237,48 @@ img {
 
 .about-content p:last-child {
   margin-bottom: 0;
+}
+
+/* --- Counselor --- */
+.counselor-content {
+  display: grid;
+  grid-template-columns: 280px 1fr;
+  gap: 48px;
+  align-items: center;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.counselor-photo img {
+  width: 280px;
+  height: 280px;
+  object-fit: cover;
+  object-position: top;
+  border-radius: 50%;
+  border: 4px solid var(--border);
+}
+
+.counselor-info h3 {
+  font-size: 1.5rem;
+  margin-bottom: 4px;
+}
+
+.counselor-title {
+  font-size: 1rem;
+  color: var(--gold);
+  font-weight: 600;
+  margin-bottom: 16px;
+}
+
+.counselor-info p {
+  color: var(--charcoal-light);
+  font-size: 1rem;
+  line-height: 1.7;
+  margin-bottom: 24px;
+}
+
+.counselor-info .btn {
+  margin-top: 0;
 }
 
 /* --- Card Grid (Services & Pricing) --- */
@@ -461,6 +502,23 @@ img {
   .hero-tagline {
     font-size: 1.1rem;
     margin-bottom: 32px;
+  }
+
+  /* Counselor */
+  .counselor-content {
+    grid-template-columns: 1fr;
+    text-align: center;
+    gap: 32px;
+  }
+
+  .counselor-photo {
+    display: flex;
+    justify-content: center;
+  }
+
+  .counselor-photo img {
+    width: 220px;
+    height: 220px;
   }
 
   /* Cards */

@@ -31,6 +31,21 @@
     });
   }
 
+  // --- Bind counselor photo and connect link ---
+  function bindCounselor(counselor) {
+    if (!counselor) return;
+    var photo = document.getElementById("counselor-img");
+    if (photo) {
+      photo.src = counselor.photo || "";
+      photo.alt = counselor.name || "";
+    }
+    var link = document.getElementById("counselor-connect");
+    if (link) {
+      link.href = counselor.connectUrl || "#";
+      link.textContent = counselor.connectLabel || "Connect";
+    }
+  }
+
   // --- Set all Calendly links ---
   function bindCalendly(url) {
     var els = document.querySelectorAll("[data-calendly]");
@@ -141,6 +156,7 @@
       .then(function (config) {
         bindText(config);
         bindCalendly(config.calendlyUrl || "#");
+        bindCounselor(config.counselor);
         buildServices(config.services);
         buildPricing(config.pricing, config.calendlyUrl);
         document.body.classList.add("config-loaded");
